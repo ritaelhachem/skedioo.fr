@@ -1,23 +1,52 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import Features from './Components/Features';
+import Showcase from './Components/Showcase';
+import Footer from './Components/Footer';
+import ConfidentialitePage from './Components/ConfidentialitePage';
+import MentionsLegalesPage from './Components/MentionsLegalesPage';
+
+function getPathname() {
+  return window.location.pathname;
+}
 
 function App() {
+  const [pathname, setPathname] = useState(getPathname());
+
+  useEffect(() => {
+    const handleLocationChange = () => {
+      setPathname(getPathname());
+      window.scrollTo(0, 0);
+    };
+
+    window.addEventListener('popstate', handleLocationChange);
+
+    return () => {
+      window.removeEventListener('popstate', handleLocationChange);
+    };
+  }, []);
+
+  const isConfidentialitePage = pathname === '/confidentialite';
+  const isMentionsPage = pathname === '/mentions-legales';
+  const isLegalPage = isConfidentialitePage || isMentionsPage;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="site-shell">
+      <Header isLegalPage={isLegalPage} />
+      {isConfidentialitePage ? (
+        <ConfidentialitePage />
+      ) : isMentionsPage ? (
+        <MentionsLegalesPage />
+      ) : (
+        <main>
+          <Hero />
+          <Features />
+          <Showcase />
+        </main>
+      )}
+      <Footer isLegalPage={isLegalPage} />
     </div>
   );
 }
