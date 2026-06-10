@@ -2,7 +2,8 @@ const mentionsSections = [
   {
     title: '1. Editeur du service',
     content: [
-      'Skedioo est une application professionnelle dediee au suivi et a la gestion des projets de construction.',
+      'Skedioo est une application professionnelle dédiée au suivi et à la gestion de projets de construction.',
+      'Editeur:',
       'Skedioo',
       '36 rue Erlanger',
       '75016 Paris - France',
@@ -13,41 +14,43 @@ const mentionsSections = [
   {
     title: '2. Responsable de la publication',
     content: [
-      'Responsable de la publication : Skedioo.',
-      'Pour toute question relative au contenu du site ou de l application, vous pouvez contacter : contact@skedioo.fr.',
+      'Le responsable de la publication est : Skedioo',
+      "Pour toute question relative au contenu du site ou de l'application, vous pouvez contacter : contact@skedioo.fr.",
     ],
   },
   {
-    title: '3. Hebergement',
+    title: '3. Hébergement',
     content: [
-      'Les informations techniques detaillees relatives a l hebergement du service peuvent etre communiquees sur demande a l adresse contact@skedioo.fr.',
+      "Les informations relatives à l'hébergement du service peuvent être communiquées sur demande à l'adresse suivante :",
+      'contact@skedioo.fr',
     ],
   },
   {
-    title: '4. Propriete intellectuelle',
+    title: '4. Propriété intellectuelle',
     content: [
-      'L ensemble des contenus presents sur ce site et au sein de l application Skedioo (textes, elements graphiques, logos, illustrations, interfaces, documents et contenus associes) est protege par les regles applicables en matiere de propriete intellectuelle.',
-      'Toute reproduction, representation, diffusion, modification ou exploitation, totale ou partielle, sans autorisation prealable ecrite est interdite.',
+      "L'ensemble des contenus présents sur le site et au sein de l'application Skedioo (textes, éléments graphiques, logos, illustrations, interfaces,documents et contenus associés) est protégé par les lois applicables en matière de propriété intellectuelle.",
+      'Toute reproduction, représentation,diffusion,modification ou exploitation, totale ou partielle,sans autorisation préalable écrite est strictement interdite.',
     ],
   },
   {
-    title: '5. Responsabilite',
+    title: '5. Responsabilité',
     content: [
-      'Skedioo met tout en oeuvre pour fournir des informations fiables et maintenir un service de qualite. Toutefois, aucune garantie absolue ne peut etre apportee quant a l absence d erreurs, d interruptions ou d indisponibilites temporaires.',
-      'L utilisateur reste responsable de l usage qu il fait du site, de l application et des informations accessibles par leur intermediaire.',
+      "Skedioo met tout en œuvre pour fournir des informations fiables et assurer un service de qualité.Toutefois, aucune garantie absolue ne peut être apportée quant à l'absence d'erreurs,d'interruptions ou d'indisponibilités temporaires",
+      "L'utilisateur reste responsable de l'usage qu'il fait du site, de l'application et des informations accessibles par leur intermédiaires.",
     ],
   },
   {
-    title: '6. Donnees personnelles',
+    title: '6. Données personnelles',
     content: [
-      'Le traitement des donnees personnelles est encadre par la politique de confidentialite accessible sur la page dediee.',
-      'Pour toute demande liee a vos donnees personnelles, vous pouvez ecrire a : contact@skedioo.fr.',
+      'Le traitement des données personnelles est encadré par la politique de confidentialité accessible sur la page dédiée.',
+      'Pour toute demande liée à vos données personnelles, vous pouvez écrire à :',
+      'contact@skedioo.fr',
     ],
   },
   {
     title: '7. Contact',
     content: [
-      'Pour toute demande d information, support ou exercice de droits :',
+      "Pour toute demande d'information, de support ou d'exercice de droits :",
       'contact@skedioo.fr',
       'https://www.skedioo.fr',
     ],
@@ -60,11 +63,9 @@ function MentionsLegalesPage() {
       <section className="legal-hero">
         <div className="container legal-hero-inner">
           <p className="legal-kicker">Informations juridiques</p>
-          <h1>Mentions legales</h1>
+          <h1>Mentions légales</h1>
           <p className="legal-intro">
-            Informations relatives a l editeur, a la publication, a
-            l hebergement et a l utilisation du site et de l application
-            Skedioo.
+            Informations relatives à l&apos;éditeur, à la publication, à l&apos;hébergement et à l&apos;utilisation du site et de l&apos;application Skedioo
           </p>
         </div>
       </section>
@@ -72,7 +73,7 @@ function MentionsLegalesPage() {
       <section className="legal-content">
         <div className="container legal-content-inner">
           {mentionsSections.map((section) => (
-            <article className="legal-block" key={section.title}>
+            <article className="legal-block legal-card" key={section.title}>
               <h2>{section.title}</h2>
               {section.content.map((paragraph) => (
                 <p key={paragraph}>

@@ -2,14 +2,14 @@ const legalSections = [
   {
     title: '1. Introduction',
     content: [
-      'Skedioo est une application professionnelle dediee au suivi et a la gestion des projets de construction.',
-      'La presente politique de confidentialite explique comment les donnees sont collectees, utilisees, stockees et protegees lors de l utilisation de l application Skedioo.',
+      'Skedioo est une application professionnelle dédiée au suivi et à la gestion des projets de construction.',
+      'La présente politique de confidentialité explique comment les données sont collectées, utilisées, stockées et protégées lors de l\'utilisation de l\'application Skedioo.',
     ],
   },
   {
     title: '2. Responsable du traitement',
     content: [
-      'Le responsable du traitement des donnees est :',
+      'Le responsable du traitement des données est :',
       'Skedioo',
       '36 rue Erlanger',
       '75016 Paris - France',
@@ -18,141 +18,145 @@ const legalSections = [
     ],
   },
   {
-    title: '3. Donnees collectees',
+    title: '3. Données collectées',
     content: [
-      'Dans le cadre de l utilisation de l application, Skedioo peut collecter les donnees suivantes :',
+      'Dans le cadre de l\'utilisation de l\'application, Skedioo peut collecter les données suivantes :',
     ],
     groups: [
       {
-        title: 'Donnees fournies par l utilisateur',
+        title: 'Données fournies par l\'utilisateur',
         items: [
           'Adresse email',
           'Identifiant utilisateur',
-          'Informations liees aux projets geres dans l application',
-          'Contenus saisis ou generes dans le cadre de l utilisation du service',
+          'Informations liées aux projets gérés dans l\'application',
+          'Contenus saisis ou générés dans le cadre de l\'utilisation du service',
         ],
       },
       {
-        title: 'Donnees techniques',
+        title: 'Données techniques',
         items: [
           'Logs techniques',
-          'Donnees de diagnostic',
-          'Informations liees a l utilisation de l application',
-          'Informations de connexion et de securite',
+          'Données de diagnostic',
+          'Informations liées à l\'utilisation de l\'application',
+          'Informations de connexion et de sécurité',
         ],
       },
     ],
     footer:
-      'Skedioo ne collecte aucune donnee personnelle sensible sans le consentement explicite de l utilisateur.',
+      'Skedioo ne collecte aucune donnée personnelle sensible sans le consentement explicite de l\'utilisateur.',
   },
   {
-    title: '4. Finalites du traitement',
-    content: ['Les donnees collectees sont utilisees uniquement pour :'],
+    title: '4. Finalités du traitement',
+    content: ['Les données collectées sont utilisées uniquement pour :'],
     items: [
-      'Permettre le fonctionnement et la securite de l application',
+      'Permettre le fonctionnement et la sécurité de l\'application',
       'Assurer le suivi et la gestion des projets de construction',
-      'Ameliorer l experience utilisateur',
-      'Maintenir et ameliorer les performances techniques',
+      'Améliorer l\'expérience utilisateur',
+      'Maintenir et améliorer les performances techniques',
       'Fournir un support technique',
     ],
     footer:
-      'Les donnees ne sont ni vendues ni utilisees a des fins commerciales ou publicitaires.',
+      'Les données ne sont ni vendues ni utilisées à des fins commerciales ou publicitaires.',
   },
   {
-    title: '5. Base legale du traitement',
-    content: ['Les donnees sont traitees sur la base :'],
+    title: '5. Base légale du traitement',
+    content: ['Les données sont traitées sur la base :'],
     items: [
-      'De l execution du service fourni par l application',
-      'Du consentement de l utilisateur lorsque requis',
-      'Du respect des obligations legales applicables',
+      'De l\'exécution du service fourni par l\'application',
+      'Du consentement de l\'utilisateur lorsque requis',
+      'Du respect des obligations légales applicables',
     ],
   },
   {
-    title: '6. Partage des donnees',
+    title: '6. Partage des données',
     content: [
-      'Les donnees peuvent etre hebergees ou traitees par des prestataires techniques necessaires au fonctionnement du service, notamment pour :',
+      'Les données peuvent être hébergées ou traitées par des prestataires techniques nécessaires au fonctionnement du service, notamment pour :',
     ],
     items: [
-      'L hebergement des serveurs',
+      'L\'hébergement des serveurs',
       'La maintenance technique',
-      'La securite des infrastructures',
+      'La sécurité des infrastructures',
     ],
     footer:
-      'Ces prestataires sont soumis a des obligations strictes de confidentialite et de protection des donnees. Skedioo ne vend ni ne partage les donnees personnelles avec des tiers a des fins commerciales.',
+      'Ces prestataires sont soumis à des obligations strictes de confidentialité et de protection des données. Skedioo ne vend ni ne partage les données personnelles avec des tiers à des fins commerciales.',
   },
   {
-    title: '7. Hebergement et transfert des donnees',
+    title: '7. Hébergement et transfert des données',
     content: [
-      'Les donnees sont hebergees sur des serveurs securises.',
-      'Lorsque cela est possible, les donnees sont hebergees au sein de l Union Europeenne.',
-      'Si un transfert hors Union Europeenne devait etre necessaire, celui-ci serait realise conformement aux reglementations applicables en matiere de protection des donnees.',
+      'Les données sont hébergées sur des serveurs sécurisés.',
+      'Dans la mesure du possible, les données sont hébergées au sein de l\'Union européenne.',
+      'En cas de transfert hors Union européenne, celui-ci sera réalisé conformément aux réglementations applicables en matière de protection des données.',
     ],
   },
   {
-    title: '8. Securite des donnees',
+    title: '8. Sécurité des données',
     content: [
-      'Skedioo met en oeuvre des mesures techniques et organisationnelles afin de proteger les donnees contre :',
+      'Skedioo met en œuvre des mesures techniques et organisationnelles afin de protéger les données contre :',
     ],
     items: [
-      'L acces non autorise',
-      'La perte ou destruction des donnees',
-      'La modification ou divulgation non autorisee',
+      'L\'accès non autorisé',
+      'La perte ou destruction des données',
+      'La modification ou divulgation non autorisée',
     ],
     trailingTitle: 'Ces mesures incluent notamment :',
     trailingItems: [
-      'Chiffrement des communications',
-      'Authentification securisee',
-      'Controle d acces aux donnees',
+      'Le chiffrement des communications',
+      'Une authentification sécurisée',
+      'Un contrôle d\'accès aux données',
     ],
   },
   {
-    title: '9. Duree de conservation des donnees',
+    title: '9. Durée de conservation des données',
     content: [
-      'Les donnees sont conservees uniquement pendant la duree necessaire a l utilisation du service ou conformement aux obligations legales applicables.',
+      'Les données sont conservées uniquement pendant la durée nécessaire à l\'utilisation du service ou conformément aux obligations légales applicables.',
     ],
   },
   {
     title: '10. Suppression du compte',
     content: [
-      'L utilisateur peut demander a tout moment la suppression de son compte ainsi que des donnees associees en envoyant une demande a :',
+      'L\'utilisateur peut demander à tout moment la suppression de son compte ainsi que des données associées en envoyant une demande à :',
       'contact@skedioo.fr',
     ],
   },
   {
     title: '11. Droits des utilisateurs',
     content: [
-      'Conformement au Reglement General sur la Protection des Donnees (RGPD), les utilisateurs disposent des droits suivants :',
+      'Conformément au Règlement Général sur la Protection des Données (RGPD), les utilisateurs disposent des droits suivants :',
     ],
     items: [
-      'Droit d acces aux donnees',
+      'Droit d\'accès aux données',
       'Droit de rectification',
-      'Droit d effacement',
-      'Droit d opposition',
-      'Droit a la limitation du traitement',
-      'Droit a la portabilite des donnees',
+      'Droit à l\'effacement',
+      'Droit d\'opposition',
+      'Droit à la limitation du traitement',
+      'Droit à la portabilité des données',
     ],
-    footer:
-      'Toute demande peut etre adressee a contact@skedioo.fr. Les utilisateurs disposent egalement du droit d introduire une reclamation aupres de la CNIL (Commission Nationale de l Informatique et des Libertes).',
+    footer:[
+      'Toute demande peut être adressée à contact@skedioo.fr.',
+      'Les utilisateurs disposent également du droit d\'introduire une réclamation auprès de la CNIL (Commission Nationale de l\'Informatique et des Libertés).',
+
+    ]
+      
   },
   {
-    title: '12. Donnees des mineurs',
+    title: '12. Données des mineurs',
     content: [
-      'L application Skedioo est destinee a un usage professionnel et n est pas concue pour etre utilisee par des personnes agees de moins de 18 ans.',
+      'L\'application Skedioo est destinée à un usage professionnel et n\'est pas conçue pour être utilisée par des personnes âgées de moins de 18 ans.',
     ],
   },
   {
     title: '13. Cookies et suivi',
     content: [
-      'L application Skedioo n utilise pas de cookies ni de systemes de suivi publicitaire.',
-      'L application ne realise aucun profilage marketing.',
+      'L\'application Skedioo n\'utilise pas de cookies ni de systèmes de suivi publicitaire.',
+      'Aucun profilage marketing n\'est effectué.',
     ],
   },
   {
-    title: '14. Modification de la politique de confidentialite',
+    title: '14. Modification de la politique de confidentialité',
     content: [
-      'Skedioo se reserve le droit de modifier la presente politique de confidentialite a tout moment afin de refleter les evolutions legales, techniques ou fonctionnelles du service.',
-      'En cas de modification importante, les utilisateurs seront informes dans l application ou par email lorsque cela est requis.',
-      'La date de derniere mise a jour est indiquee en haut du document.',
+      'Skedioo se réserve le droit de modifier la présente politique de confidentialité à tout moment afin de refléter les évolutions légales, techniques ou fonctionnelles du service.',
+      'En cas de modification importante, les utilisateurs seront informés dans l\'application ou par email lorsque cela est requis',
+      'La date de dernière mise à jour: Mercredi 10 Juin 2026',
     ],
   },
 ];
@@ -163,10 +167,10 @@ function ConfidentialitePage() {
       <section className="legal-hero">
         <div className="container legal-hero-inner">
           <p className="legal-kicker">Protection des donnees</p>
-          <h1>Politique de confidentialite</h1>
+          <h1>Politique de confidentialité</h1>
           <p className="legal-intro">
-            Informations relatives a la collecte, l utilisation, la conservation
-            et la protection des donnees dans l application Skedioo.
+            Informations relatives à la collecte, l&apos;utilisation, la conservation
+            et la protection des données dans l&apos;application Skedioo.
           </p>
         </div>
       </section>

@@ -1,23 +1,25 @@
+import logoWhite from '../assets/img/logowhite.svg';
+
 function Header({ isLegalPage = false }) {
   const homeHref = isLegalPage ? '/#accueil' : '#accueil';
   const solutionHref = isLegalPage ? '/#solution' : '#solution';
   const fonctionnalitesHref = isLegalPage ? '/#fonctionnalites' : '#fonctionnalites';
-  const contactHref = isLegalPage ? '/#contact' : '#contact';
+  const loginHref = 'https://www.skedioo.fr/web';
 
   return (
     <header className="site-header">
       <div className="container header-inner">
         <a className="brand" href={homeHref} aria-label="Skedioo">
-          <span className="brand-accent">S</span>kedioo
+          <img className="brand-logo" src={logoWhite} alt="Skedioo" />
         </a>
 
         <nav className="main-nav" aria-label="Navigation principale">
           <a href={homeHref}>Accueil</a>
           <a href={solutionHref}>Solution</a>
-          <a href={fonctionnalitesHref}>Fonctionnalites</a>
+          <a href={fonctionnalitesHref}>Fonctionnalités</a>
         </nav>
 
-        <a className="cta-button" href={contactHref}>
+        <a className="cta-button" href={loginHref}>
           Se connecter
         </a>
       </div>

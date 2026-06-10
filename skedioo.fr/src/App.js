@@ -7,6 +7,7 @@ import Showcase from './Components/Showcase';
 import Footer from './Components/Footer';
 import ConfidentialitePage from './Components/ConfidentialitePage';
 import MentionsLegalesPage from './Components/MentionsLegalesPage';
+import slogo from './assets/img/Slogo.PNG';
 
 function getPathname() {
   return window.location.pathname;
@@ -16,6 +17,16 @@ function App() {
   const [pathname, setPathname] = useState(getPathname());
 
   useEffect(() => {
+    document.title = 'Skedioo';
+
+    let favicon = document.querySelector("link[rel='icon']");
+    if (!favicon) {
+      favicon = document.createElement('link');
+      favicon.setAttribute('rel', 'icon');
+      document.head.appendChild(favicon);
+    }
+    favicon.setAttribute('href', slogo);
+
     const handleLocationChange = () => {
       setPathname(getPathname());
       window.scrollTo(0, 0);

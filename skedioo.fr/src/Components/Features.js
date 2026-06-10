@@ -7,22 +7,22 @@ const features = [
   {
     icon: authIcon,
     title: '100%',
-    description: 'Tracabilite des donnees.',
+    description: 'Traçabilité des données.',
   },
   {
     icon: clockIcon,
-    title: 'Temps reel',
+    title: 'Temps réel',
     description: 'Suivi des operations.',
   },
   {
     icon: usersIcon,
     title: 'Multi-acteurs',
-    description: 'Collaboration simplifiee.',
+    description: 'Collaboration simplifiée.',
   },
   {
     icon: lockIcon,
-    title: 'Securise',
-    description: 'Gestion avancee des acces.',
+    title: 'Sécurisé',
+    description: 'Gestion avancee des accès.',
   },
 ];
 
@@ -31,10 +31,10 @@ function Features() {
     <section className="features-section" id="solution">
       <div className="container">
         <div className="section-heading">
-          <h2>Une solution pensee pour les professionnels du batiment</h2>
+          <h2>Une solution pensée pour les professionnels du bâtiment</h2>
           <p>
-            Skedioo accompagne les maitres d&apos;ouvrage, bureaux d&apos;etudes,
-            entreprises et sous-traitants dans le suivi et la coordination de
+            Skedioo accompagne les maîtres d&apos;ouvrage, bureaux d&apos;études,
+            entreprises et sous-traitants dans le suivi <br/>et la coordination de
             leurs projets.
           </p>
         </div>

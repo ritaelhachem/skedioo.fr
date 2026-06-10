@@ -1,11 +1,11 @@
-import dashboardImage from '../assets/img/ordi v2.jpg';
+import dashboardImage from '../assets/img/ordi.png';
 
 const points = [
   'Plan interactif',
   'Navigation par niveaux',
   'Visualisation par zones',
-  'Indicateurs d avancement',
-  'Acces rapide aux informations',
+  'Indicateurs d\'avancement',
+  'Accès rapide aux informations',
 ];
 
 function Showcase() {
@@ -17,11 +17,11 @@ function Showcase() {
         </div>
 
         <div className="showcase-copy">
-          <h2>Une lecture claire de vos donnees chantier</h2>
+          <h2>Une lecture claire de vos données chantier</h2>
           <p>
-            Grace a une visualisation intuitive des plans et des informations
-            terrain, Skedioo facilite la prise de decision et ameliore le suivi
-            des operations.
+            Grâce a une visualisation intuitive des plans et des informations
+            terrain, Skedioo facilite la prise de décision et améliore le suivi
+            des opérations.
           </p>
 
           <ul className="check-list">
